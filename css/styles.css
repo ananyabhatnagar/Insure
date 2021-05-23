@@ -1,0 +1,275 @@
+
+body {
+    font-family: 'Karla', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'DM Serif Display';
+font-weight: 400;
+}
+
+p {
+  color: #8f8f8f;
+  text-align: left;
+}
+
+/* Headings */
+
+hr.line{
+margin-left: 0px;
+width: 150px;
+border-top: 1px solid white;
+}
+hr.line2{
+margin-left: 0px;
+width: 150px;
+border-top: 1px solid black;
+}
+
+
+.big-heading {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.heading-align{
+  width: 50%;
+  height: 10%;
+  text-align: left;
+
+}
+.design{
+  text-align: left;
+  font-size: 50px;
+
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 3% 12%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+width: 100%;
+
+
+}
+
+.navbar-custom{
+  height: 70px;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 3% 12%;
+}
+
+.nav-item {
+  padding: 0 10px;
+
+}
+
+.nav-link {
+  font-size: 16px;
+  font-family: "Montserrat-Light";
+}
+
+.nav-mid{
+  padding-right: 15%;
+}
+
+.body-text{
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+
+}
+.title
+/* Buttons */
+
+.plans-button {
+  margin: 5% 3% 5% 0;
+  font-size: 16px;
+}
+
+.bg-pattern-intro-left{
+  position:absolute;
+    width:30%;
+    height:70%;
+    top:20px;
+    left:0;
+}
+.bg-pattern-intro-right{
+  position:absolute;
+    width:30%;
+    height:70%;
+    top:60px;
+    right:0;
+}
+.bg-pattern-how-we-work{
+ padding-right: 0;
+ padding-top: 0;
+ padding-left: 50px;
+ margin-top: 0;
+}
+.sl{
+  padding-left: 500px;
+  padding-top: 0px;
+  padding-right: 500px;
+}
+.bg-pattern-footer{
+  position:absolute;
+    width:30%;
+    height:70%;
+    top:0;
+    left:0;
+}
+/* Title Section */
+
+#title {
+  background-color: #2d2640;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  /*padding: 3% 15% 7%;*/
+}
+
+/* Title Image */
+
+
+.title-image
+ {
+  width: 80%;
+
+  position: relative;
+  right: 2%;
+  margin-right: 0px;
+}
+
+/* Features ection */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  padding-left: 0%;
+  margin-top: 5.5rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.feature-box {
+  padding: 3.5%;
+}
+
+.icon {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  color: #95a9c6;
+  float: left;
+
+}
+
+.icon:hover {
+  color: #2d2640;
+}
+
+
+
+/* CTA Section */
+
+#cta{
+  background-color: #2d2640;
+  margin: 20px 150px;
+}
+
+.comp{
+  padding: 3% 9%;
+  margin-right: 0;
+
+}
+
+
+
+
+/* Footer Section */
+
+#bottom{
+  background-color: #fafafa
+;
+
+}
+.button-padding{
+
+  padding-top: 70px;
+  padding-right: 0;
+}
+
+.social-icon {
+   margin: 20px 10px;
+   width: 100%;
+}
+
+.foot{
+  text-align: left;
+}
+.foot-icon{
+  float: right;
+  padding-right: 0;
+}
+.foot-section{
+  padding: 3% 17%;
+  text-align: left;
+  color: #8f8f8f;
+}
+.footer-list{
+  color: 'black';
+}
+
+a {
+  color: 'black';
+  background-color: transparent;
+}
+.corner{
+  padding: 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
